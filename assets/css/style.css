@@ -28,27 +28,29 @@ header {
 
 .container {
     flex: 1 0 auto;
+    overflow: hidden;
 }
 
 #main-content {
-    width: 920px;
+    width: 898px;
     float: none;
     margin: 0 auto;
     margin-top: 30px;
     border: 2px #dddddd solid;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     line-height: 32px;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 28px;
+    font-size: 30px;
+    font-weight: 600;
     background-color: #4aaaa5;
     color: white;
     float: left;
-    padding: 20px;
+    padding: 21px;
     margin-right: 250px;
     margin-top: 0;
 }
@@ -56,15 +58,20 @@ h1 {
 h2 {
     float: right;
     margin-top: 0;
-    padding: 20px;
-    font-size: 15px;
+    font-size: 17.5px;
+    font-weight: initial;
+    padding: 25px;
+    margin-right: -25px;
+    padding-left: 35px;
 }
 
 h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 27px;
     color: #4aaaa5;
-    margin-top: 15px;
+    margin-top: 8px;
+    margin-bottom: 23px;
 }
 
 #bio-image {
@@ -75,12 +82,13 @@ h3 {
 
 a:link {
     text-decoration: none;
-    color: #777777;
+    color: #a7a7a7;
+    transition-duration: 1.25s;
 }
 
 a:visited {
     text-decoration: none;
-    color: #777777;
+    color: #a7a7a7;
 }
 
 .footer {
@@ -96,31 +104,85 @@ a:visited {
     margin-top: 40px;
 }
 
-@media screen and (max-width: 980px) {
-    #main-content {
-        width: 606px;
-        margin: 30px 0px 0px 55px;
-    }
-
-    h1 {
-        margin-left: 55px;
-    }
-
-    .headerwrap {
-        margin: 0;
-    }
+.imageandtext {
+    float: left;
+    margin-right: 32px;
+    margin-bottom: 37px;
 }
 
-@media screen and (max-width: 768px) {
-    #main-content {
-        width: 670px;
-        margin: 30px 0px 0px 20px;
-    }
+.centered {
+    position: absolute;
+    margin-top: -55px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #ffffff;
+    width: 270px;
+    text-align: center;
 }
 
-@media screen and (max-width: 640px) {
-    #main-content {
-        width: 515px;
-        margin: 30px 0px 0px 20px;
-    }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+hr.custom {
+    border: 1.5px solid #dddddd;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    position: relative;
+    border: 1px solid #dddddd;
+    width: 880px;
+    padding: 8px;
+    font-size: 11px;
+    color: #919191;
+    margin-bottom: 11px;
+}
+
+textarea {
+    /* padding: 20px 10px; */
+    /* line-height: 70px; */
+    box-sizing: border-box;
+    padding: 8px;
+    width: 898px;
+    border: 1px solid #dddddd;
+}
+
+input[type=text]:focus {
+    outline-color: #4aaaa5;
+}
+
+textarea:focus {
+    outline-color: #4aaaa5;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 7px 25px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition-duration: 1.25s;
+}
+
+button:hover {
+    background-color: #4681B7;
+    color: white;
+    transition: linear .25s;
+}
+
+button:active {
+    background-color: #B5F6F3;
+}
+
+a:hover {
+    color: #4AA7C1;
+    transition: linear .25s;
 }
