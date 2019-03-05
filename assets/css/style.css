@@ -248,7 +248,7 @@ a:hover {
         float: inherit;
         text-align: center;
         position: relative;
-        top: 27px;
+        top: 12px;
     }
 
     header {
@@ -259,11 +259,15 @@ a:hover {
 
     .navbar {
         width: 100%;
-        height: 45px;
+        height: 39px;
         margin: 0 auto;
         border-bottom: 2px #cccccc solid;
         background-color: #ffffff;
         text-align: center;
         overflow: auto;
+    }
+
+    #main-content {
+        margin-top: 60px
     }
 }
