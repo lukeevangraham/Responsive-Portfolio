@@ -239,22 +239,26 @@ a:hover {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        padding: 21px 0px 21px 0px;
     }
 
-    /* h2 {
-        /* display: inline-block; */
+    h2 {
+        display: inline;
         background-color: #ffffff;
+        float: inherit;
+        text-align: center;
     } */
-
-    .navwrap {
-        position: static;
-        width: 100%;
-        background-color: #ffffff;
-        border-bottom: 2px #cccccc solid;
-    }
 
     header {
         border-bottom: 0px;
         position: static;
+    }
+
+    .navbar {
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 2px #cccccc solid;
+        background-color: red;
+        text-align: center;
     }
 }
