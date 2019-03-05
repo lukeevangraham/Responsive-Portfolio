@@ -243,12 +243,12 @@ a:hover {
     }
 
     h2 {
-        display: inline;
+        display: inline-flex;
+        flex-direction: row-reverse;
         background-color: #ffffff;
         float: inherit;
-        text-align: center;
         position: relative;
-        top: 12px;
+        top: -15px;
     }
 
     header {
