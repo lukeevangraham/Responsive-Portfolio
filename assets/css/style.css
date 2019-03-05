@@ -240,4 +240,21 @@ a:hover {
         margin: 0 auto;
         text-align: center;
     }
+
+    /* h2 {
+        /* display: inline-block; */
+        background-color: #ffffff;
+    } */
+
+    .navwrap {
+        position: static;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px #cccccc solid;
+    }
+
+    header {
+        border-bottom: 0px;
+        position: static;
+    }
 }
