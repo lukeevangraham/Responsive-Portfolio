@@ -231,7 +231,13 @@ a:hover {
 
 @media screen and (max-width: 640px) {
     #main-content {
-        width: 515px;
-        margin: 30px 0px 0px 20px;
+        width: 471px;
+        margin: 30px 0px 0px 20px auto;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
