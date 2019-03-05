@@ -247,18 +247,23 @@ a:hover {
         background-color: #ffffff;
         float: inherit;
         text-align: center;
-    } */
+        position: relative;
+        top: 27px;
+    }
 
     header {
         border-bottom: 0px;
         position: static;
+        /* overflow: auto; */
     }
 
     .navbar {
         width: 100%;
+        height: 45px;
         margin: 0 auto;
         border-bottom: 2px #cccccc solid;
         background-color: red;
         text-align: center;
+        overflow: auto;
     }
 }
