@@ -243,7 +243,6 @@ a:hover {
     }
 
     h2 {
-        background-color: #ffffff;
         position: relative;
         top: -15px;
     }
@@ -251,7 +250,6 @@ a:hover {
     header {
         border-bottom: 0px;
         position: static;
-        /* overflow: auto; */
     }
 
     .navbar {
@@ -263,7 +261,6 @@ a:hover {
         margin: 0 auto;
         border-bottom: 2px #cccccc solid;
         background-color: #ffffff;
-        text-align: center;
         overflow: auto;
     }
 
