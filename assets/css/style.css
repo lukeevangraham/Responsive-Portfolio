@@ -206,6 +206,14 @@ a:hover {
         margin-right: 35px;
         padding-left: 0px;
     }
+
+    input[type=text] {
+        width: 97%;
+    }
+
+    textarea {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
