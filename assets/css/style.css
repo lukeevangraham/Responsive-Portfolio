@@ -243,10 +243,7 @@ a:hover {
     }
 
     h2 {
-        display: inline-flex;
-        flex-direction: row-reverse;
         background-color: #ffffff;
-        float: inherit;
         position: relative;
         top: -15px;
     }
@@ -258,6 +255,9 @@ a:hover {
     }
 
     .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
         width: 100%;
         height: 39px;
         margin: 0 auto;
