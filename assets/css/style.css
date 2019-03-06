@@ -192,7 +192,12 @@ a:hover {
         width: 606px;
         margin: 30px 0px 0px 55px;
         text-align: center;
-        justify-content: space-between;
+    }
+    
+    .content-wrap {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 
     h1 {
@@ -224,9 +229,7 @@ a:hover {
     .imageandtext {
         float: none;
         display: inline-block;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: auto;
+        margin: 0 0 0 0;
     }
 }
 
