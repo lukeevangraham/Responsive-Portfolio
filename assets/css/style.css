@@ -197,7 +197,7 @@ a:hover {
     .content-wrap {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     h1 {
@@ -228,8 +228,7 @@ a:hover {
 
     .imageandtext {
         float: none;
-        display: inline-block;
-        margin: 0 0 0 0;
+        margin: 0px 0px 25px 0px;
     }
 }
 
