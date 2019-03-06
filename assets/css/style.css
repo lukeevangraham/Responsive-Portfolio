@@ -286,4 +286,8 @@ a:hover {
         display: flex;
         justify-content: center;
     }
+
+    input[type=text] {
+        width: 96%;
+    }
 }
