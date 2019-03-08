@@ -322,4 +322,8 @@ a:hover {
     .content-wrap {
         justify-content: center;
     }
+
+    .imageandtext {
+        flex: 0 1 auto;
+    }
 }
