@@ -187,6 +187,10 @@ a:hover {
     transition: linear .25s;
 }
 
+form {
+    text-align: left;
+}
+
 @media screen and (max-width: 980px) {
     #main-content {
         width: 606px;
