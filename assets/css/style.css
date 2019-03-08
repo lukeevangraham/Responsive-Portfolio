@@ -234,8 +234,8 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     #main-content {
-        width: 80%;
-        margin: 30px 0px 0px 20px;
+        width: 85%;
+        margin: auto;
     }
 
     h1 {
@@ -251,6 +251,16 @@ a:hover {
         margin-right: 20px;
         padding: 25px 0px 25px 10px;
     }
+
+    .navbar {
+        padding-right: 15px;
+    }
+
+    header {
+        margin-bottom: 30px;
+    }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -286,6 +296,7 @@ a:hover {
         border-bottom: 2px #cccccc solid;
         background-color: #ffffff;
         overflow: auto;
+        padding: 0;
     }
 
     #main-content {
@@ -306,5 +317,9 @@ a:hover {
 
     input[type=text] {
         width: 93%;
+    }
+
+    .content-wrap {
+        justify-content: center;
     }
 }
